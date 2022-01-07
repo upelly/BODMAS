@@ -39,6 +39,6 @@ Solving recursively - it goes into the string, then into each substring as indic
 46
 
 
-While reading the code, please keep in mind that I had very limited knowledge and understanding of coding at the time. For example, I manually made a function to convert a string to a double, and did not use any exceptions (instead simply outputting any error to the console). Nonetheless, even then I attempted to conform to the single-choice design principle, and broke down the code into tangible functions and commented on their purpose. 
+While reading the code, please keep in mind that I had very limited experience with coding at the time. For example, I manually made a function to convert a string to a double, and did not use any exceptions (instead simply outputting any error to the console). Nonetheless, even then I attempted to conform to the single-choice design principle, and broke down the code into tangible functions and commented on their purpose. 
 
 I have not edited this code since 2019.
