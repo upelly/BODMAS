@@ -7,19 +7,33 @@ It uses a recursive method to do this. First it adds brackets (parentheses) to t
 I'll take you through an example string to see how it works:
 
 Input:
+
 1+5*(9+4-3\*1)-5
 
 Adding brackets:
+
 1+5*(9+4-(3\*1))-5
+
 1+5*((9+4)-(3\*1))-5
+
 1+(5*((9+4)-(3\*1)))-5
+
 (1+(5*((9+4)-(3\*1))))-5
 
+
 Solving recursively - it goes into the string, then into each substring as indicated by the brackets
+
 (1+(5*((9+4)-(3\*1))))-5
+
 (1+(5*(13-(3\*1))))-5
+
+
 (1+(5*(13-3)))-5
+
 (1+(5\*10))-5
+
 (1+50)-5
+
 51-5
+
 46
