@@ -37,3 +37,8 @@ Solving recursively - it goes into the string, then into each substring as indic
 51-5
 
 46
+
+
+While reading the code, please keep in mind that I had very limited knowledge and understanding of coding at the time. Nonetheless, even then I attempted to conform to the single-choice design principle, and broke down the code into tangible functions and commented on their purpose. 
+
+I have not edited this code since 2019.
